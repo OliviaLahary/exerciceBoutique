@@ -1,0 +1,19 @@
+.product-item{
+    margin-top: 50px; 
+    width: auto;
+}
+
+.product-item h5{
+    margin: 5px;
+    text-transform: uppercase;
+    font-style: 12px;
+    white-space: nowrap;
+}
+
+.product-item img{
+    height: 150px;
+    width: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
