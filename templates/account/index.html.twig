@@ -4,7 +4,8 @@
 
 {% block content %}
 <div>
-    Bonjour {{ app.user.firstname }} {{ app.user.lastname }}
-    <a href="{{ path('account_password') }}">Modifier mon mot de passe</a>
+    <h1>Bonjour {{ app.user.firstname }} {{ app.user.lastname }} </h1>
+    <a class="btn btn-primary" href="{{ path('account_password') }}">Modifier mon mot de passe</a>
+    <a class="btn btn-primary" href="{{path('account_address') }}"> Gerer mes adresses </a>
 </div>
 {% endblock %}

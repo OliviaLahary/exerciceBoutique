@@ -49,6 +49,7 @@ class RegisterType extends AbstractType
                         'placeholder' => 'Votre mot de passe'
                     ]
                 ],
+                
                 'second_options' => [
                     'label' => 'Confirmation de mot passe',
                     'constraints' => new Length([
